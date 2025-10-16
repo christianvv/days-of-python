@@ -1,4 +1,4 @@
-import art
+from art import logo
 
 def add(n1, n2):
     return n1 + n2
@@ -22,7 +22,7 @@ operations = {
 #print(operations["*"](4, 8))
 
 def calculator():
-    print(art.logo)
+    print(logo)
     continue_last = True
 
     num1 = float(input("What is the first number?: "))
